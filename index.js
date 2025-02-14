@@ -7,6 +7,10 @@ form.addEventListener('submit',async (event) => {
     const Email = document.querySelector('#email').value;
     const Message = document.querySelector('#message').value;
     console.log(Nom,Email,Message);
+    if (!Nom || !Email || !Message) {
+       alert("Veuillez remplir tous les champs.");
+        return; 
+    }
    
     const regexEmail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     
