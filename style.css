@@ -107,7 +107,7 @@ h2{
 
 /*    detais-skills  */
 .details-skills {
-    padding: 20px;
+    padding: 40px;
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-evenly; 
@@ -176,7 +176,7 @@ h2{
     background-color: black;
     color: white;
     text-align: start;
-   width: 60%;
+    width: 50%;
     padding: 4px;
     border-radius: 8px;
 }
@@ -234,7 +234,7 @@ footer p{
     }
    
     .info-projet{
-        width: 50%; 
+        width: 70%; 
         text-align: center; 
     }
 
